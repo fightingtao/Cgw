@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>联系我们</title>
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/basis.css"/>
+    <link rel="shortcut icon" href="icon_img.ico">
+    <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/respond.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.sidr.min.js"></script>
+		<script src="js/bangban.js"></script>
+	<script>
+		$(function(){
+		   $('#left-menu').sidr({
+		name: 'sidr-left',
+		side: 'right'
+		    });
+		});
+	</script>
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.min.js"></script>
+	    <script src="js/respond.min.js"></script>
+    <![endif]-->
+	</head>
+	<body>
+		
+		<header id="header">
+			<section class="clearfix container nav-box">
+				<div class="fl wow fadeInLeft logo">
+					<a href="#"><img src="img/logo.png"/></a>
+				</div>
+				<nav class="fr ">
+					<div class="nav-logo hidden-lg hidden-sm hidden-md" id="left-menu">
+						<img src="img/nav.png"/>
+					</div>
+					<ul class="hidden-xs d-nav clearfix wow fadeInRight">
+						<li class="dq"><a href="index.html">首页</a></li>
+						<li><a href="about.html">邦办达人</a></li>
+						<li><a href="ffxm.html">邦办商家</a></li>
+						<li><a href="news.html">关于邦办</a></li>
+						<li><a href="lxwm.html" style="color: #502d78">联系我们</a></li>
+					</ul>
+					<div class="clearfix xs-nav" id="sidr-left">
+						<ul>
+							<li class="dq"><a href="index.html">首页</a></li>
+							<li><a href="about.html">邦办达人</a></li>
+							<li><a href="ffxm.html">邦办商家</a></li>
+							<li><a href="news.html">关于邦办</a></li>
+							<li><a href="lxwm.html" style="color: #502d78">联系我们</a></li>
+						</ul>
+					</div>
+				</nav>
+			</section>
+		</header>
+
+		<section class="container wrap clearfix">
+				<div class="title2 wow slideInLeft" >
+	    			<p style="font-family: '微软雅黑';font-size: 24px;color:#54207b;">联系方式</h1>
+	    		</div>
+			<div class="textadd1">
+				<span style="display: block;">公司地址：江苏省南京市玄武区长江路99号长江贸易大楼17楼 </span>
+				<span style="display: block;">服务热线：025-66051610(工作时间：周一至周五8:30~18:00）</span>
+			</div>
+
+			<div class="textadd2">
+
+				<span style="display: block;">招聘热线：025-52888537 </span>
+				<span style="display: block;">招聘邮箱：15610479@qq.com</span>
+			</div>
+	    		<div class="lx-txtbox clearfix wow fadeInUp">
+	    			<div class="lx-map">
+	    				<img src="img/img_add.png"/>
+	    			</div>	
+
+	    		</div>
+		</section>
+		
+		<footer id="footer">
+		   <div class="copy wow fadeInUp">
+		   	<p style="color: #FFFFFF;">Copyright&nbsp;&copy;&nbsp;南京邦办网络科技有限公司   苏ICP备16050638号-1  </p>
+		   </div>
+	   </footer>
+		<script src="js/wow.js" type="text/javascript" charset="utf-8"></script>
+	    <script>
+			if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+				new WOW().init();
+			};
+			$(function(){
+				var  fixRight= $('.fr li');
+				fixRight.eq(4).addClass('cur').siblings().removeClass('cur');
+				fixRight.eq(4).addClass('ah').siblings().removeClass('ah');
+
+			})
+		</script>
+	</body>
+</html>

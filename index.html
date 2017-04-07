@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>邦办即达网站</title>
+     <link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+ 	<link href="css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/basis.css"/>
+    <link rel="shortcut icon" href="icon_img.ico">
+    <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/respond.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.sidr.min.js"></script>
+
+	<script>
+		$(function(){
+		   $('#left-menu').sidr({
+		name: 'sidr-left',
+		side: 'right'
+		    });
+		});
+	</script>
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.min.js"></script>
+	    <script src="js/respond.min.js"></script>
+    <![endif]-->
+	</head>
+	<body>
+		
+		<header id="header">
+			<section class="clearfix container nav-box">
+				<div class="fl wow fadeInLeft logo">
+					<a href="#"><img src="img/logo.png"/></a>
+				</div>
+				<nav class="fr ">
+					<div class="nav-logo hidden-lg hidden-sm hidden-md" id="left-menu">
+						<img src="img/nav.png"/>
+					</div>
+					<ul class="hidden-xs d-nav clearfix wow fadeInRight">
+						<li class="dq"><a href="index.html" style="color: #502d78">首页</a></li>
+						<li><a href="about.html">邦办达人</a></li>
+						<li><a href="ffxm.html">邦办商家</a></li>
+						<li><a href="news.html">关于邦办</a></li>
+						<li><a href="lxwm.html">联系我们</a></li>
+					</ul>
+					<div class="clearfix xs-nav" id="sidr-left">
+						<ul>
+							<li class="dq"><a href="index.html" style="color: #502d78">首页</a></li>
+							<li><a href="about.html">邦办达人</a></li>
+							<li><a href="ffxm.html">邦办商家</a></li>
+							<li><a href="news.html">关于邦办</a></li>
+							<li><a href="lxwm.html">联系我们</a></li>
+						</ul>
+					</div>
+				</nav>
+			</section>
+		</header>
+
+		<section class="swiper-container  wow fadeInDown" id="t-ban">
+			<div id="myCarousel" class="carousel slide">
+				<!-- 轮播（Carousel）指标 -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+				<!-- 轮播（Carousel）项目 -->
+				<div class="carousel-inner">
+					<div class="item active swiper-slide" >
+						<img src="img/banner1.png" alt="First slide">
+					</div>
+					<div class="item swiper-slide">
+						<img src="img/banner2.png" alt="Second slide">
+					</div>
+					<div class="item swiper-slide">
+						<img src="img/banner3.png" alt="Third slide">
+					</div>
+				</div>
+				<!-- 轮播（Carousel）导航 -->
+				<!--<div>
+					<a class=" left pageo" href="#myCarousel"
+					   data-slide="prev">
+					</a>
+
+					<a class=" right pageo" href="#myCarousel"
+					   data-slide="next">
+					</a>
+
+				</div>-->
+
+			</div>
+	 	</section>
+	    
+	    <section class="box1">
+	    	<div class="container yw-box">
+    		    <div class="swiper-container" id="yw-list">
+			        <div class="swiper-wrapper">
+			            <div class="swiper-slide wow lightSpeedIn" >
+
+			            </div>
+			            <div class="swiper-slide wow lightSpeedIn" >
+		            		<a href="#" class="yw-alist">
+		            			<span><img src="img/icon_wish.png"/></span>
+		            			<h3 style="font-family:'微软雅黑';font-size: 24px;color:#502d78;">邦办愿景</h3>
+		            			<p style="font-family: '微软雅黑';font-size: 14px;color:#888888 ;">成为幸福指数最高的自由职业者</p>
+		            		</a>			            	
+			            </div>
+			            <div class="swiper-slide wow lightSpeedIn" >
+		            		<a href="#" class="yw-alist">
+								<span><img src="img/icon_mission.png"/></span>
+		            			<h3 style="font-family:'微软雅黑';font-size: 24px;color:#502d78;">邦办使命</h3>
+		            			<p style="font-family: '微软雅黑';font-size: 14px;color:#888888 ;">让每个人的零散时间更有价值</p>
+		            		</a>			            	
+			            </div>
+			            <div class="swiper-slide wow lightSpeedIn" >
+		            		<a href="#" class="yw-alist">
+								<span><img src="img/icon_-worth.png"/></span>
+		            			<h3 style="font-family:'微软雅黑';font-size: 24px;color:#502d78;">邦办价值观</h3>
+		            			<p style="font-family: '微软雅黑';font-size: 14px;color:#888888 ;">用户第一、诚信敬业、追求卓越</p>
+		            		</a>
+			            </div>
+			            <div class="swiper-slide wow lightSpeedIn" >
+			            </div>
+
+			        </div>
+			        <!-- Add Pagination -->
+			        <div class="swiper-pagination"></div>
+			    </div>
+	    	</div>
+	    </section>
+	   <footer id="footer">
+		   <div class="copy wow fadeInUp">
+		   	<p style="color: #FFFFFF;">Copyright&nbsp;&copy;&nbsp;南京邦办网络科技有限公司   苏ICP备16050638号-1  </p>
+		   </div>
+	   </footer>
+	    
+	    <script src="js/wow.js" type="text/javascript" charset="utf-8"></script>
+	    <script>
+			if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+				new WOW().init();
+			};
+			$(function(){
+				var  fixRight= $('.fadeInRight li');
+				fixRight.eq(0).addClass('ah').siblings().removeClass('ah');
+			})
+		</script>
+
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$(function(){
+				$("#myCarousel").carousel({interval: 3000});
+			})
+		</script>
+	    
+	    <!--首页焦点图 JS-->
+	    <script>
+		    var swiper = new Swiper('#t-ban', {
+		        pagination: '#t-ban .swiper-pagination',
+		        paginationClickable: true,
+		        loop : true,
+		    });
+	    </script>
+	    
+	   <!--首页合作伙伴 JS-->     
+    	<script>
+    var swiper = new Swiper('#hb-img', {
+        pagination: '#hb-img .swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 5,
+        spaceBetween: 0,
+        breakpoints: {
+            1120: {
+                slidesPerView: 4,
+            },
+            960: {
+                slidesPerView: 3,
+            },
+            640: {
+                slidesPerView: 2,
+            },
+            480: {
+                slidesPerView: 1,
+            }
+        }
+    });
+    </script>
+
+	    
+	    <!--首页新闻图片 JS-->  
+		<script>
+	    var swiper = new Swiper('#news-imgfoc', {
+	        pagination: '#news-imgfoc .swiper-pagination',
+	        paginationClickable: '#news-imgfoc .swiper-pagination',
+	        nextButton: '#news-imgfoc .swiper-button-next',
+	        prevButton: '#news-imgfoc .swiper-button-prev',
+	        spaceBetween: 30
+	    });
+	    </script>
+	    
+	    
+		<!--首页主营业务 JS-->      
+	    <script>
+		    var swiper = new Swiper('#yw-list', {
+		    pagination: '#yw-list .swiper-pagination',
+	        paginationClickable: true,
+	        slidesPerView: 5,
+	        breakpoints: {
+	            1200: {
+	                slidesPerView: 4,
+	                spaceBetween: 0
+	            },
+	            768: {
+	                slidesPerView: 3,
+	                spaceBetween: 0
+	            },
+	            640: {
+	                slidesPerView: 2,
+	                spaceBetween: 0
+	            },
+	            370: {
+	                slidesPerView: 1,
+	                spaceBetween: 0
+	            }
+	        }
+	    });
+	    </script>
+		
+	</body>
+</html>
